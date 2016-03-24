@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+ font-family: "proxima-nova",sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.logo-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.header-nav-button {
+  padding: 10px;
+}
+
+.hero-row {
+  background-size: cover;
+  background-position: 50% 100%;
+  height: 560px;
+}
+
+.footer {
+  color: white;
+}
+
+.footer-hero {
+  background-image: url("./assets/footer-image.png");
+  background-size: cover;
+  background-position: 50% 100%;
+  height: 476px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: purple;
+}
+
+.copyright {
+  flex: 1;
+  padding: 10;
+}
+
+.footer-nav-button {
+  padding: 10;
+}
+
+#main-hero {
+  background-image: url("./assets/hero-image.png");
+  height: 660px;
+}
+
+#feature-hero-1 {
+  background-image: url("./assets/feature-hero-1.png");
+}
+
+#feature-hero-2 {
+  background-image: url("./assets/feature-hero-2.png");
+}
+
+#feature-hero-3 {
+  background-image: url("./assets/feature-hero-3.png");
+}
+
+#feature-hero-4 {
+  background-image: url("./assets/feature-hero-4.png");
+}

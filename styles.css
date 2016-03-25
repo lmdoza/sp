@@ -1,5 +1,5 @@
 html {
-  background-color: #48354A;
+  background-color: #2b202c;
 }
 
 body {
@@ -75,7 +75,8 @@ h2 {
   justify-content: space-around;
   align-items: center;
   padding-right: 20%;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .footer-col {

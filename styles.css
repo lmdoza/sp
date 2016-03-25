@@ -41,11 +41,39 @@ h2 {
 
 .logo-container {
   flex: 1;
-  padding: 10px;
+  padding: 0 10px;
+  height:43px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("./assets/stamp-detail-logo.png");
+  background-repeat: no-repeat;
+}
+
+.logo-sports, .logo-passport {
+  font-size: 24px;
+}
+
+.logo-passport {
+  font-weight: 300;
+  padding-left: 7px;
 }
 
 .header-nav-button {
   padding: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-small-text {
+  margin-left: 20px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.new-york-life-logo {
+  width: 40px;
+  margin-left: 20px;
 }
 
 .header-nav-button:last-child {
@@ -105,6 +133,10 @@ h2 {
 
 .footer-nav-button {
   padding: 10;
+}
+
+#login-icon {
+  margin-left: 5px;
 }
 
 #main-hero {

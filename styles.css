@@ -66,7 +66,7 @@ h2 {
 }
 
 .header-nav-button {
-  padding: 28px;
+  padding: 22px;
   display: flex;
   align-items: center;
 }
@@ -163,6 +163,35 @@ h2 {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;
+}
+
+.search-button-container {
+  border-radius: 50px;
+  background-color: white;
+  margin-top: 10px;
+  width: 400px;
+  height: 60px;
+  padding-left: 40px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.search-button-text {
+  border: none;
+  height: 100%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  flex: 1;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.search-button {
+  background-color: #48354A;
+  width: 70px;
+  height: 70px;
+  border: none;
 }
 
 #login-icon {

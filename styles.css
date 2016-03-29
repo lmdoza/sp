@@ -41,21 +41,27 @@ h2 {
 
 .logo-container {
   flex: 1;
-  padding: 0 10px;
+  padding-left: 20px;
+  margin-left: 10px;
   height:43px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background-image: url("./assets/stamp-detail-logo.png");
   background-repeat: no-repeat;
+  letter-spacing: 2px;
 }
 
 .logo-sports, .logo-passport {
   font-size: 24px;
 }
 
+.logo-sports {
+  font-weight: 700;
+}
+
 .logo-passport {
-  font-weight: 300;
+  font-weight: 400;
   padding-left: 7px;
 }
 

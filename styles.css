@@ -66,14 +66,13 @@ button {
 
 .logo-passport {
   font-weight: 400;
-  padding-left: 7px;
 }
 
 .header-nav-button {
   padding: 22px;
   display: flex;
   align-items: center;
-  cursor: pointer;
+  cursor: pointer; th
 }
 
 .logo-small-text {
@@ -204,7 +203,7 @@ button {
 }
 
 #main-hero {
-  background-image: url("./assets/hero-image.png");
+  background-image: url("./assets/home/hero-image.png");
   height: 660px;
 }
 
@@ -214,7 +213,7 @@ button {
 }
 
 #feature-hero-1 {
-  background-image: url("./assets/feature-hero-1.png");
+  background-image: url("./assets/home/feature-hero-1.png");
   padding-left: 30%;
   padding-right: 5%;
 }
@@ -225,13 +224,13 @@ button {
 }
 
 #feature-hero-2 {
-  background-image: url("./assets/feature-hero-2.png");
+  background-image: url("./assets/home/feature-hero-2.png");
   padding-right: 40%;
   padding-left: 5%;
 }
 
 #feature-hero-3 {
-  background-image: url("./assets/feature-hero-3.png");
+  background-image: url("./assets/home/feature-hero-3.png");
   padding-left: 50%;
   padding-right: 5%;
 }
@@ -243,9 +242,14 @@ button {
 }
 
 #feature-hero-4 {
-  background-image: url("./assets/feature-hero-4.png");
+  background-image: url("./assets/home/feature-hero-4.png");
   padding-right: 40%;
   padding-left: 5%;
   text-align: left;
   justify-content: flex-start;
+}
+
+#sign-up-hero {
+  background-image: url("./assets/sign-up/sign-up-background.png");
+  flex-direction: row;
 }

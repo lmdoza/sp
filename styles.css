@@ -27,6 +27,11 @@ h2 {
   line-height: 40px;
 }
 
+h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
 button {
   cursor: pointer;
 }
@@ -198,6 +203,45 @@ button {
   border: none;
 }
 
+.flavor-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  width: 480px;
+}
+
+.sign-up-form-input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  height: 40px;
+  font-size: 20px;
+  outline: none;
+}
+
+.form-submit {
+  height: 60px;
+  width: 200px;
+  background-color: #48354A;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.sign-up-form > .form-submit {
+  margin: 20px 0;
+}
+
 #login-icon {
   margin-left: 5px;
 }
@@ -252,4 +296,7 @@ button {
 #sign-up-hero {
   background-image: url("./assets/sign-up/sign-up-background.png");
   flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+  padding: 60px 50px 50px 50px;
 }

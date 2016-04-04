@@ -1,0 +1,87 @@
+.center-container {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+  margin-top: 40px;
+}
+
+#main-hero {
+  background-image: url("./assets/home/hero-image.png");
+  height: 660px;
+}
+
+#main-hero > h2 {
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+#main-hero-img {
+  width: 70%;
+}
+
+#feature-hero-1 {
+  background-image: url("./assets/home/feature-hero-1.png");
+  padding-left: 30%;
+  padding-right: 5%;
+}
+
+#feature-hero-1 > h2 {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#feature-hero-2 {
+  background-image: url("./assets/home/feature-hero-2.png");
+  padding-right: 40%;
+  padding-left: 5%;
+}
+
+#feature-hero-3 {
+  background-image: url("./assets/home/feature-hero-3.png");
+  padding-left: 50%;
+  padding-right: 5%;
+}
+
+
+#feature-hero-3 > h2 {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#feature-hero-4 {
+  background-image: url("./assets/home/feature-hero-4.png");
+  padding-right: 40%;
+  padding-left: 5%;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+#hero-icon-stats {
+  width: 82px;
+}
+
+#hero-icon-passport {
+  width: 79px;
+}
+
+#hero-icon-trophy {
+  width: 57px;
+}
+
+#hero-icon-stats {
+  width: 112px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  #main-hero {
+    height: auto;
+}
+
+  #main-hero > h2 {
+    margin-bottom: 30px;
+  }
+
+  #main-hero-img {
+    width: 90%;
+  }
+}

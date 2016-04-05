@@ -10,7 +10,7 @@
   height: 660px;
 }
 
-#main-hero > h2 {
+#main-hero h2 {
   margin-top: 50px;
   margin-bottom: 90px;
 }
@@ -25,7 +25,7 @@
   padding-right: 5%;
 }
 
-#feature-hero-1 > h2 {
+#feature-hero-1 h2 {
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -43,7 +43,7 @@
 }
 
 
-#feature-hero-3 > h2 {
+#feature-hero-3 h2 {
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -68,20 +68,73 @@
   width: 57px;
 }
 
-#hero-icon-stats {
+#hero-icon-map {
   width: 112px;
 }
 
 @media only screen and (max-device-width: 768px) {
   #main-hero {
     height: auto;
+    background-image: url("./assets/mobile-backgrounds/hero-image-mobile.png");
+    padding-bottom: 90px;
 }
 
-  #main-hero > h2 {
+  #main-hero h2 {
     margin-bottom: 30px;
   }
 
   #main-hero-img {
     width: 90%;
+  }
+
+  #feature-hero-1 {
+    background-image: url("./assets/mobile-backgrounds/feature-hero-1-mobile.png");
+    background-position-x: 4%;
+  }
+
+  #feature-hero-2 {
+    background-image: url("./assets/mobile-backgrounds/feature-hero-2-mobile.png");
+    padding-right: 30%;
+  }
+
+  #feature-hero-2 .sign-up-button {
+    padding: 15px 20px;
+    width: 200px;
+    font-size: 15px;
+  }
+
+  #feature-hero-3 {
+    background-image: url("./assets/mobile-backgrounds/feature-hero-3-mobile.png");
+    padding-left: 5%;
+    padding-bottom: 90px;
+  }
+
+  #feature-hero-4 {
+    background-image: url("./assets/mobile-backgrounds/feature-hero-4-mobile.png");
+    padding-right: 5%;
+    padding-bottom: 90px;
+    align-items: center;
+    text-align: center;
+  }
+
+  #feature-hero-4 .center-container {
+    width: auto;
+
+  }
+
+  #hero-icon-stats {
+    width: 50px;
+  }
+
+  #hero-icon-passport {
+    width: 50px;
+  }
+
+  #hero-icon-trophy {
+    width: 35px;
+  }
+
+  #hero-icon-map {
+    width: 60px;
   }
 }

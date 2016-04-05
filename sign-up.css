@@ -21,7 +21,7 @@
   outline: none;
 }
 
-.sign-up-form > .form-submit {
+.sign-up-form .form-submit {
   margin: 20px 0;
 }
 
@@ -31,4 +31,10 @@
   justify-content: space-around;
   text-align: left;
   padding: 60px 50px 50px 50px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .flavor-text-container {
+    display: none;
+  }
 }

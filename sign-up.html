@@ -1,9 +1,12 @@
 <html !DOCTYPE>
   <head>
+    <title>Sports Passport - Sign Up</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="sign-up.css">
     <script src="https://use.typekit.net/uus8mcn.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="dropdown-toggle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div class="header">
@@ -13,16 +16,27 @@
         <span class="logo-small-text">Presented By</span>
         <img class="new-york-life-logo" src="./assets/new-york-life-logo.png">
       </div>
+      <!-- Nav for mobile -->
+      <div class="mobile-dropdown-container">
+        <div class="mobile-dropdown-toggle" onclick="showDropdown()">
+          <img src="./assets/mobileMenu.svg" />
+        </div>
+
+        <ul id="mobile-dropdown-menu">
+          <li class="mobile-dropdown-close" onclick="hideDropdown()">X</li>
+          <li class="mobile-nav-button">View Stamps</li>
+          <li class="mobile-nav-button">
+            Login
+            <img id="login-icon" src="./assets/login-icon.png">
+          </li>
+        </ul>
+      </div>
+
       <!-- Nav for desktop -->
       <div class="header-nav-button">View Stamps</div>
       <div class="header-nav-button">
         Login
         <img id="login-icon" src="./assets/login-icon.png">
-      </div>
-
-      <!-- Nav for mobile -->
-      <div class="mobile-dropdown-toggle">
-        <img src="./assets/mobileMenu.svg" />
       </div>
     </div>
 

@@ -156,7 +156,7 @@ button {
 }
 
 .sign-up-button {
-  background: rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, .7);
   border: thin solid #48354A;
   border-radius: 50px;
   padding: 20px;
@@ -224,7 +224,7 @@ button {
 
 @media only screen and (max-device-width: 768px) {
   h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   h2 {
@@ -258,9 +258,10 @@ button {
   }
 
   .footer-hero {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
     height: auto;
   }
 
@@ -268,13 +269,16 @@ button {
     height: auto;
   }
 
-  .footer-col > a,
-  .footer-col > b {
+  .footer-col:last-child {
+    margin-top: 20px;
+  }
+
+  .footer-col a,
+  .footer-col b {
     margin-top: 20px;
   }
 
   .mobile-dropdown-container {
-    position: relative;
     display: block;
   }
 
@@ -283,37 +287,52 @@ button {
     padding: 10px;
   }
 
-  .mobile-dropdown-menu {
-    width: 150px;
+  #mobile-dropdown-menu {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    right: 0;
-    top: 35px;
+    left: 0;
+    top: -14px;
     display: none;
     background-color: white;
     list-style-type: none;
     padding: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
   }
 
-  .mobile-dropdown-menu > li {
-    border-top: thin solid gray;
-    margin: 0 10px;
-    padding: 10px 0;
+  #mobile-dropdown-menu li {
+    border-bottom: thin solid gray;
+    margin: 0 20px;
+    padding: 20px 0;
   }
 
-  .mobile-dropdown-container:hover > .mobile-dropdown-menu {
-    display: block;
+  #mobile-dropdown-menu li:first-child,
+  #mobile-dropdown-menu li:last-child {
+    border: none;
+  }
+
+  .mobile-dropdown-close {
+    text-align: right;
+    padding: 10px 20px;
   }
 
   .header-nav-button {
     display: none;
   }
 
-  .footer-nav {
-    flex-direction: column;
-    height: auto;
+  .search-button-container {
+    width: 80%;
   }
 
-  .copyright {
+  .footer-nav-button {
+    display: none;
+  }
 
+  .footer-nav {
+    padding: 0;
+    font-size: 10px;
+    text-align: center;
   }
 }

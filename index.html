@@ -1,9 +1,11 @@
 <html !DOCTYPE>
   <head>
+    <title>Sports Passport</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="home.css">
     <script src="https://use.typekit.net/uus8mcn.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="dropdown-toggle.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -16,11 +18,12 @@
       </div>
       <!-- Nav for mobile -->
       <div class="mobile-dropdown-container">
-        <div class="mobile-dropdown-toggle">
+        <div class="mobile-dropdown-toggle" onclick="showDropdown()">
           <img src="./assets/mobileMenu.svg" />
         </div>
 
-        <ul class="mobile-dropdown-menu">
+        <ul id="mobile-dropdown-menu">
+          <li class="mobile-dropdown-close" onclick="hideDropdown()">X</li>
           <li class="mobile-nav-button">View Stamps</li>
           <li class="mobile-nav-button">
             Login
